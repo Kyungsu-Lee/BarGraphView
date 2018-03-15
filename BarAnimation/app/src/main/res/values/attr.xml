@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BarGraphView">
+        <attr name="text_size" format="integer"/>
+        <attr name="border" format="integer"/>
+        <attr name="count" format="integer"/>
+        <attr name="level" format="integer"/>
+        <attr name="step" format="integer"/>
+        <attr name="time" format="integer"/>
+        <attr name="border_color" format="color"/>
+        <attr name="background_color" format="color"/>
+        <attr name="bar_color" format="color"/>
+        <attr name="left_text" format="string"/>
+        <attr name="right_text" format="string"/>
+        <attr name="center_text" format="string"/>
+    </declare-styleable>
+
+</resources>

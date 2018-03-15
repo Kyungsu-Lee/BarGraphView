@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="500dp"
+    android:minHeight="105dp"
+    android:orientation="vertical"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/bar_graph_main_bg"
+            >
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/bar_graph_border_bg"
+                    android:layout_above="@id/bar_graph_text_layout"
+                    >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/bar_graph_content_bg"
+                                    />
+
+                        </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/bar_graph_text_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    >
+                        <TextView
+                            android:id="@+id/bar_graph_left_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="left"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            />
+
+                        <TextView
+                            android:id="@+id/bar_graph_mid_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:id="@+id/bar_graph_right_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            />
+
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+</LinearLayout>
